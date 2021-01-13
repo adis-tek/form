@@ -1,34 +1,48 @@
 <html lang="en">
-<head>
+<div class="container">
+<head class="head">
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
     <title>Survey</title>
+    <h1 class="title">What's your favorite car brand?</h1>
+    <p class="description">An honest survey of your favorite cars.</p>
 </head>
 <body>
-    <div class="main">
-        <div class="title">
-            <h1></h1>
+<form class="survey-form">
+        <div class="form-group">
+        Name: <input type = "text" name = "name" />
         </div>
-        <div class="desc">
-            <p></p>
+        <div class="form-group">
+        Email: <input type = "text" email = "email" />
         </div>
-        <form class="survey-form">
-            Name: <input type = "text" name = "name" />
-            <br>
-            Email: <input type = "text" email = "email" />
-            <br>
-            Age: <input type = "text" email = "age" />
-            <br>
-            <select name="cars" class="cars">
-                <option value="tesla">Tesla</option>
-                <option value="tesla">Tesla</option>
-                <option value="tesla">Tesla</option>
-            </select>
-            <br>
-            <input type="submit" value="Submit">
-        </form>
-
-        <p>Just describing something here.</p>
-    </div>
+        <div class="form-group">
+        Age: <input type = "text" email = "age" />
+        </div>
+        <div class="form-group">
+        <select name="cars" class="cars">
+            <option value="tesla">Audi</option>
+            <option value="tesla">BMW</option>
+            <option value="tesla">Volvo</option>
+            <option value="tesla">Acura</option>
+            <option value="tesla">Tesla</option>
+            <option value="tesla">Cadillac</option>
+            <option value="tesla">Volkswagon</option>
+        </select>
+        </div>
+        <div class="form-group">
+        <p>A question?</p>
+        <input type="radio" id="option1" name="option1" value="option1">
+        <label for="option1">Option 1</label>
+        <input type="radio" id="option2" name="option1" value="option2">
+        <label for="option1">Option 2</label>
+        <input type="radio" id="option3" name="option1" value="option3">
+        <label for="option1">Option 3</label>
+        </div>
+        <br>
+        <input class="submit" type="submit" value="SEND">
+    </form>
+    <p class="footer">Thank you for participating!</p>
 </body>
+</div>
 </html>

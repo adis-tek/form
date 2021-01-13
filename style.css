@@ -1,0 +1,83 @@
+*,
+*::before,
+*::after {
+    box-sizing: border-box;
+}
+
+:root {
+    color: white;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 1.5rem;
+}
+
+.title {
+    text-align: center;
+}
+
+.description {
+    text-align: center;
+}
+
+body {  
+    background-image: linear-gradient(rgba(0, 0, 0, 0.50), rgba(44, 130, 201, 0.30)), url(car.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+
+.container {
+    max-width: 900px;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+.survey-form {
+    display: flex;
+    flex-direction: column;
+    position : relative;
+    top : 0;
+    bottom : 0;
+    left : 0;
+    right : 0;
+    margin: auto;
+    background-color: rgba(0, 0, 0, 0.8); /* Fallback color */
+    width: 100%;
+    padding: 20px;
+    text-align: left;
+    align-content: center;
+    display: block;
+    margin: auto;
+    border-radius: 10px;
+}
+
+.form-group {
+    margin: 20px;
+    padding: 5px;
+    align-self: center;
+}
+
+input {
+    padding-top: 5px;
+    display: block;
+}
+
+label {
+    align-self: right;
+}
+
+.submit {
+    height: 50px;
+    width: 200px;
+    background-color: lightblue;
+    border-radius: 10px;
+    border: none;
+    align-self: center;
+    font-weight: 800;
+    font-size: large;
+    text-align: center;
+}
+
+.footer {
+    text-align: center;
+}
