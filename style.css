@@ -19,7 +19,7 @@
 }
 
 body {  
-    background-image: linear-gradient(rgba(0, 0, 0, 0.50), rgba(44, 130, 201, 0.30)), url(car.jpg);
+    background-image: linear-gradient(rgba(0, 0, 0, 0.50), rgba(44, 130, 201, 0.30)), url(event.jpg);
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center;
@@ -42,7 +42,7 @@ body {
     right : 0;
     margin: auto;
     background-color: rgba(0, 0, 0, 0.8); /* Fallback color */
-    width: 100%;
+    width: 60%;
     padding: 20px;
     text-align: left;
     align-content: center;
@@ -52,9 +52,22 @@ body {
 }
 
 .form-group {
+    display: flex;
+    flex-direction: column;
     margin: 20px;
     padding: 5px;
     align-self: center;
+}
+
+.group-options {
+    display: flex;
+    align-items: center;
+    margin-top: 5px;
+    margin-bottom: 5px;
+}
+
+.group-options > input {
+    margin-right: 20px;
 }
 
 input {
