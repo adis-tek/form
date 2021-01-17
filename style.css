@@ -106,8 +106,14 @@ label {
     align-self: right;
 }
 
+.times:focus,
+.times:hover {
+    border: 1px solid cyan;
+}
+
 .drop {
-    background-color: rgb(0, 255, 255, 0.2);
+    background-color: rgb(0, 0, 0, 1);
+    border-bottom: 1px solid white;
 }
 
 .times {
